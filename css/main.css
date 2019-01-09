@@ -1,0 +1,14 @@
+.tab{top:10%; height: 90%;position: absolute}
+.tab3{top:10%;height: 90%;position: absolute}
+.topBox {
+    /* max-height: 110px; */
+    height: 10%;
+    position: absolute;
+    z-index: 999;
+    /* background: #ecf0f1; */
+}
+.logo{position: absolute;top:50%;margin-top:-25px; }
+.menus .menusUl{position: absolute;top:40%;}
+.menus {height: 100%;
+}
+#pagination-wrap{position: absolute;bottom:20px;left: 47%;margin-left: -23px;}

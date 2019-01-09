@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menusLi {
+    list-style: none;
+}
+.clear {
+    clear: both;
+}
+.font{
+    font-weight: bold;
+}
+/* topbox */
+.topBox{
+    position: relative;
+    width: 100%;
+    height: 110px;
+    /* box-shadow: 0 5px 15px rgba(12,12,12,0.1); */
+}
+.logo{
+   position: relative;
+   top: 25%;
+   padding-left: 15%;
+}
+.menus .menusUl {
+    position: relative;
+    float: right;
+    top: -25%;
+    right: 10%;
+    width: 450px;
+    font-size: 18px;
+}
+.menus  .menusLi {
+    color: #1BB1FF;
+    float: left;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+       -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+         -o-transition: all 0.5s;
+            transition: all 0.5s;
+}
+.menus .menusLi:nth-child(2) {
+    color: #1BB1FF;
+}
+.menus .bg {
+    margin-left: 60px; 
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #8157f4;
+    font-weight:bold;
+    border-bottom: 2px solid #1BB1FF;
+    /* background: #009FE9; */
+    z-index: -1;
+    -webkit-transition: all 0.5s;
+       -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+         -o-transition: all 0.5s;
+            transition: all 0.5s;
+}
+.tab {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid #000; */
+    text-align: left;
+    color: #666666;
+    /* font-weight: bold; */
+    display: none;
+}
+.tab3 {
+    width: 100%;
+    height: 100%;
+    color: #666666;    
+    /* border-top: 1px solid #000; */
+    /* box-shadow: 10px 10px 5px #888888; */
+    /* text-align: center; */
+    display: none;
+}
+.show {
+    display: block;
+}
+.title {
+    text-align: center;
+    padding: 20px;
+    background: #ccc;
+}
+/* 关于泡泡 */
+.aboutUs{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.imgTo{
+    margin-top: 40px;
+    width: 100%;
+}
+.imgBox2{
+    width: 100%;
+    text-align: center;
+}
+.imgIco{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.aboutTextFirst{
+    border:2px solid #8157f4;
+    border-radius:20px; 
+    font-size: 18px;
+    color: #8157f4;
+    padding: 12px 30px;
+}
+.aboutText{
+    margin-top: 30px;    
+    border:2px solid #8157f4;
+    border-radius:20px; 
+    font-size: 18px;
+    color: #8157f4;
+    padding: 12px 30px;
+}
+.number{
+  display: inline;
+  font-weight: bold;
+}
+.callUs{
+    margin-top: 50px;
+    text-align: left;
+    height: 125px;
+}
+.callLeft{
+    position: relative;
+    float: left;
+}
+.callRight{
+    text-align: right;
+    position: relative;
+    float: right;
+}
+.footer{
+    /* position: absolute; */
+    margin-top: 30px;
+    font-size: 12px;
+    margin-bottom: 34px;    
+    text-align: center;
+    width: 100%;
+    bottom: 20px;
+}
+.textTop{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.publicPho{
+    margin-top:10px;
+    width:90px;
+    height:90px;
+}
+.popoAbout{
+    margin-left:-52px;
+}
+.buttonTop{
+    
+}

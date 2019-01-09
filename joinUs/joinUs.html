@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="泡泡游戏、小程序、小游戏、竞技平台、好友对战、红包提现、玩游戏赢红包。">
+    <meta name="description" content="">
+    <title>薯条</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?70183468d980dde9c943c6bc00b89ed2";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+
+<body>
+    <div class="menus menus3">
+        <div class="buttonTop"></div>
+        <div class="topBox">
+            <div id="toIn" class="logo">
+                <img src="../images/logo.png" alt="泡泡游戏">
+            </div>
+            <ul class=" menusUl">
+                <div class="bg" style="width: 80px; left: 126px"></div>
+                <li class=" menusLi indexTop">
+                    <span id="toIndex">首页</span>
+                </li>
+                <li id="joinUs" class="menusLi font">
+                    <span>关于我们</span>
+                </li class="menusLi">
+            </ul>
+        </div>
+        <div class="tab tab2 show">
+            <div id="wrapper">
+                <div id="slider-wrap">
+                    <ul id="slider">
+                        <li class="first">
+                            <img class="bg1" src="../images/img2.png" alt="泡泡游戏轮播图图片">
+                        </li>
+                    </ul>
+                    <!--controls-->
+                    <div class="btns" id="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </div>
+                    <div class="btns" id="previous">
+                        <i class="fa fa-arrow-left"></i>
+                    </div>
+                    <div id="pagination-wrap">
+                        <ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+
+    <script>
+        $('#aboutPao').click(function () {
+            window.location.href = '../aboutPao/aboutPao.html'
+        })
+        $('#toIndex').click(function () {
+            window.location.href = '../index.html'
+        })
+        $('#toIn').click(function () {
+            window.location.href = '../index.html'
+        })
+        $('.menus3 .menusLi').each(function () {
+            $('.menus3 .menusLi').mouseover(function () {
+                var index = $(this).index();
+                $('.menusLi').removeClass('font')
+                $('.menusLi').eq(index - 1).addClass('font')
+            });
+        })
+    </script>
+</body>
+
+</html>
